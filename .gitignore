@@ -1,0 +1,42 @@
+# Object files
+*.o
+.dep
+
+# Images
+*.eep
+*.elf
+*.hex
+*.lss
+*.lst
+*.map
+*.sym
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Eagle temporary files
+*.s#*
+*.b#*
+
+# Autodesk Inventor
+lockfile.lck
+OldVersions
+
+# VIM temporary files
+*.swp
+.Rproj.user
+
+# 3D printer service files
+*.cmb.gz
