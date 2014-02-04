@@ -6569,116 +6569,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-amp-micromatch">
-<packages>
-<package name="MICROMATCH-8">
-<description>&lt;b&gt;MicroMaTch 8 &lt;/b&gt; 7-215464-8 / 0-215464-8&lt;p&gt;
-Drawing Number C-215464&lt;br&gt;
-DDEController.pdf</description>
-<wire x1="-6.1" y1="0.7" x2="-6.5" y2="0.7" width="0.2032" layer="51"/>
-<wire x1="-6.5" y1="0.7" x2="-6.5" y2="-0.7" width="0.2032" layer="51"/>
-<wire x1="-6.5" y1="-0.7" x2="-6.1" y2="-0.7" width="0.2032" layer="51"/>
-<wire x1="-6.1" y1="-1.2" x2="-6.5" y2="-1.2" width="0.2032" layer="51"/>
-<wire x1="-6.5" y1="-1.2" x2="-6.5" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="-6.5" y1="-1.6" x2="-6.1" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="-6.1" y1="1.6" x2="-6.5" y2="1.6" width="0.2032" layer="51"/>
-<wire x1="-6.5" y1="1.6" x2="-6.5" y2="1.2" width="0.2032" layer="51"/>
-<wire x1="-6.5" y1="1.2" x2="-6.1" y2="1.2" width="0.2032" layer="51"/>
-<wire x1="-6" y1="2.4" x2="-6" y2="-2.4" width="0.2032" layer="51"/>
-<wire x1="-5.2" y1="2" x2="-5.2" y2="-2" width="0.2032" layer="51"/>
-<wire x1="5.9" y1="1.6" x2="5.6" y2="1.6" width="0.1016" layer="51"/>
-<wire x1="5.6" y1="1.6" x2="5.3" y2="1.6" width="0.1016" layer="51"/>
-<wire x1="5.9" y1="0" x2="5.6" y2="0" width="0.1016" layer="51"/>
-<wire x1="5.6" y1="0" x2="5.3" y2="0" width="0.1016" layer="51"/>
-<wire x1="5.6" y1="0" x2="5.3" y2="0.3" width="0.1016" layer="51"/>
-<wire x1="5.6" y1="1.6" x2="5.3" y2="1.3" width="0.1016" layer="51"/>
-<wire x1="5.5" y1="1.4" x2="5.6" y2="1.3" width="0.1016" layer="51"/>
-<wire x1="5.9" y1="1.3" x2="5.6" y2="1.3" width="0.1016" layer="51"/>
-<wire x1="5.6" y1="1.3" x2="5.6" y2="0.3" width="0.1016" layer="51"/>
-<wire x1="5.6" y1="0.3" x2="5.9" y2="0.3" width="0.1016" layer="51"/>
-<wire x1="5.5" y1="0.2" x2="5.6" y2="0.3" width="0.1016" layer="51"/>
-<wire x1="6.1" y1="-0.7" x2="6.5" y2="-0.7" width="0.2032" layer="51"/>
-<wire x1="6.5" y1="-0.7" x2="6.5" y2="0.7" width="0.2032" layer="51"/>
-<wire x1="6.5" y1="0.7" x2="6.1" y2="0.7" width="0.2032" layer="51"/>
-<wire x1="6.1" y1="1.2" x2="6.5" y2="1.2" width="0.2032" layer="51"/>
-<wire x1="6.5" y1="1.2" x2="6.5" y2="1.6" width="0.2032" layer="51"/>
-<wire x1="6.5" y1="1.6" x2="6.1" y2="1.6" width="0.2032" layer="51"/>
-<wire x1="6.1" y1="-1.6" x2="6.5" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="6.5" y1="-1.6" x2="6.5" y2="-1.2" width="0.2032" layer="51"/>
-<wire x1="6.5" y1="-1.2" x2="6.1" y2="-1.2" width="0.2032" layer="51"/>
-<wire x1="6" y1="-2.4" x2="6" y2="2.4" width="0.2032" layer="51"/>
-<wire x1="5.2" y1="2" x2="-5.2" y2="2" width="0.2032" layer="51"/>
-<wire x1="6" y1="2.4" x2="-6" y2="2.4" width="0.2032" layer="51"/>
-<wire x1="6" y1="-2.4" x2="-6" y2="-2.4" width="0.2032" layer="51"/>
-<wire x1="5.2" y1="-2" x2="5.2" y2="2" width="0.2032" layer="51"/>
-<wire x1="5.2" y1="-2" x2="-5.2" y2="-2" width="0.2032" layer="51"/>
-<pad name="1" x="4.445" y="1.27" drill="0.8128"/>
-<pad name="2" x="3.175" y="-1.27" drill="0.8128"/>
-<pad name="3" x="1.905" y="1.27" drill="0.8128"/>
-<pad name="4" x="0.635" y="-1.27" drill="0.8128"/>
-<pad name="5" x="-0.635" y="1.27" drill="0.8128"/>
-<pad name="6" x="-1.905" y="-1.27" drill="0.8128"/>
-<pad name="7" x="-3.175" y="1.27" drill="0.8128"/>
-<pad name="8" x="-4.445" y="-1.27" drill="0.8128"/>
-<text x="-4.445" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.445" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="MV">
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="1.27" y2="0" width="0.6096" layer="94"/>
-<text x="-0.508" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<text x="0" y="0.889" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="M">
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="1.27" y2="0" width="0.6096" layer="94"/>
-<text x="-0.508" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MICROMATCH-8" prefix="X">
-<description>&lt;b&gt;MicroMaTch 8 &lt;/b&gt; 7-215464-8 / 0-215464-8&lt;p&gt;
-Drawing Number C-215464&lt;br&gt;
-DDEController.pdf</description>
-<gates>
-<gate name="-1" symbol="MV" x="0" y="7.62" addlevel="always" swaplevel="1"/>
-<gate name="-2" symbol="M" x="0" y="5.08" addlevel="always" swaplevel="1"/>
-<gate name="-3" symbol="M" x="0" y="2.54" addlevel="always" swaplevel="1"/>
-<gate name="-4" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-5" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
-<gate name="-6" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
-<gate name="-7" symbol="M" x="0" y="-7.62" addlevel="always" swaplevel="1"/>
-<gate name="-8" symbol="M" x="0" y="-10.16" addlevel="always" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="MICROMATCH-8">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
-<connect gate="-4" pin="S" pad="4"/>
-<connect gate="-5" pin="S" pad="5"/>
-<connect gate="-6" pin="S" pad="6"/>
-<connect gate="-7" pin="S" pad="7"/>
-<connect gate="-8" pin="S" pad="8"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="FARNELL" constant="no"/>
-<attribute name="MPN" value="7-215464-8" constant="no"/>
-<attribute name="OC_FARNELL" value="3784642" constant="no"/>
-<attribute name="OC_NEWARK" value="26H0301" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="discrete">
 <packages>
 <package name="PAD-01">
@@ -7589,7 +7479,6 @@ DDEController.pdf</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="X1" library="con-amp-micromatch" deviceset="MICROMATCH-8" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="ANT1" library="discrete" deviceset="ANTENNA" device=""/>
 <part name="B1" library="microbuilder" deviceset="BALUN+LP" device=""/>
@@ -7633,7 +7522,7 @@ DDEController.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="7.62" y="93.98" size="1.016" layer="91">GND for Q1</text>
+<text x="15.24" y="99.06" size="1.016" layer="91">GND for Q1</text>
 <text x="154.94" y="119.38" size="1.016" layer="91">wire antenna 85mm</text>
 <text x="119.38" y="43.18" size="1.016" layer="91">solder pads for antenna</text>
 <wire x1="172.72" y1="172.72" x2="200.66" y2="172.72" width="0.1524" layer="97" style="longdash"/>
@@ -7664,21 +7553,13 @@ DDEController.pdf</description>
 <instance part="GND5" gate="1" x="111.76" y="154.94" rot="R90"/>
 <instance part="GND6" gate="1" x="111.76" y="165.1" rot="R90"/>
 <instance part="GND7" gate="1" x="15.24" y="111.76"/>
-<instance part="X1" gate="-1" x="12.7" y="83.82"/>
-<instance part="X1" gate="-2" x="12.7" y="81.28"/>
-<instance part="X1" gate="-3" x="12.7" y="78.74"/>
-<instance part="X1" gate="-4" x="12.7" y="76.2"/>
-<instance part="X1" gate="-5" x="12.7" y="73.66"/>
-<instance part="X1" gate="-6" x="12.7" y="71.12"/>
-<instance part="X1" gate="-7" x="12.7" y="68.58"/>
-<instance part="X1" gate="-8" x="12.7" y="66.04"/>
 <instance part="GND12" gate="1" x="149.86" y="147.32"/>
 <instance part="ANT1" gate="A" x="160.02" y="114.3"/>
 <instance part="B1" gate="G$1" x="132.08" y="101.6" rot="R270"/>
 <instance part="GND15" gate="1" x="132.08" y="86.36"/>
-<instance part="GND16" gate="1" x="15.24" y="91.44"/>
+<instance part="GND16" gate="1" x="22.86" y="96.52"/>
 <instance part="Q1" gate="G$1" x="40.64" y="119.38" rot="R270"/>
-<instance part="Q1" gate="G$2" x="7.62" y="99.06" rot="R180"/>
+<instance part="Q1" gate="G$2" x="15.24" y="104.14" rot="R180"/>
 <instance part="C1" gate="G$1" x="33.02" y="124.46" rot="R270"/>
 <instance part="C4" gate="G$1" x="33.02" y="114.3" rot="R270"/>
 <instance part="GND17" gate="1" x="25.4" y="109.22"/>
@@ -7781,11 +7662,6 @@ DDEController.pdf</description>
 <pinref part="C8" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="17.78" y1="71.12" x2="20.32" y2="71.12" width="0.1524" layer="91"/>
-<label x="20.32" y="71.12" size="1.27" layer="95" xref="yes"/>
-<pinref part="X1" gate="-6" pin="S"/>
-</segment>
-<segment>
 <wire x1="119.38" y1="96.52" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="96.52" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
@@ -7802,11 +7678,11 @@ DDEController.pdf</description>
 <pinref part="B1" gate="G$1" pin="GND2"/>
 </segment>
 <segment>
-<wire x1="15.24" y1="93.98" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="96.52" x2="12.7" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="99.06" x2="15.24" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="99.06" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
-<junction x="15.24" y="96.52"/>
+<wire x1="22.86" y1="99.06" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="101.6" x2="20.32" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="104.14" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="104.14" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
+<junction x="22.86" y="101.6"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <pinref part="Q1" gate="G$2" pin="GND1"/>
 <pinref part="Q1" gate="G$2" pin="GND"/>
@@ -8022,20 +7898,6 @@ DDEController.pdf</description>
 <pinref part="U1" gate="G$1" pin="DIG4"/>
 </segment>
 </net>
-<net name="RXD" class="0">
-<segment>
-<wire x1="17.78" y1="68.58" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
-<label x="20.32" y="68.58" size="1.27" layer="95" xref="yes"/>
-<pinref part="X1" gate="-7" pin="S"/>
-</segment>
-</net>
-<net name="TXD" class="0">
-<segment>
-<wire x1="17.78" y1="66.04" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
-<label x="20.32" y="66.04" size="1.27" layer="95" xref="yes"/>
-<pinref part="X1" gate="-8" pin="S"/>
-</segment>
-</net>
 <net name="AT_RST" class="0">
 <segment>
 <wire x1="53.34" y1="129.54" x2="15.24" y2="129.54" width="0.1524" layer="91"/>
@@ -8051,34 +7913,6 @@ DDEController.pdf</description>
 <pinref part="JP1" gate="A" pin="16"/>
 <wire x1="205.74" y1="78.74" x2="213.36" y2="78.74" width="0.1524" layer="91"/>
 <label x="213.36" y="78.74" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="TCK" class="0">
-<segment>
-<wire x1="17.78" y1="81.28" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
-<label x="20.32" y="81.28" size="1.27" layer="95" xref="yes"/>
-<pinref part="X1" gate="-2" pin="S"/>
-</segment>
-</net>
-<net name="TMS" class="0">
-<segment>
-<wire x1="17.78" y1="78.74" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
-<label x="20.32" y="78.74" size="1.27" layer="95" xref="yes"/>
-<pinref part="X1" gate="-3" pin="S"/>
-</segment>
-</net>
-<net name="TDO" class="0">
-<segment>
-<wire x1="17.78" y1="76.2" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
-<label x="20.32" y="76.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="X1" gate="-4" pin="S"/>
-</segment>
-</net>
-<net name="TDI" class="0">
-<segment>
-<wire x1="17.78" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
-<label x="20.32" y="73.66" size="1.27" layer="95" xref="yes"/>
-<pinref part="X1" gate="-5" pin="S"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -8198,11 +8032,6 @@ DDEController.pdf</description>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="EVDD"/>
-</segment>
-<segment>
-<wire x1="17.78" y1="83.82" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
-<label x="20.32" y="83.82" size="1.27" layer="95" xref="yes"/>
-<pinref part="X1" gate="-1" pin="S"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="VCC"/>
