@@ -915,12 +915,6 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <attribute name="SUPPLIER" value="MICROCHIP" x="14.6" y="7.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="9757937" x="14.6" y="7.9" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R2" library="rcl" package="R0603" value="0R" x="9.2" y="1.1" rot="R180"/>
-<element name="R4" library="rcl" package="R0603" value="0R" x="9.2" y="7.4" rot="R180"/>
-<element name="R5" library="rcl" package="R0603" value="0R" x="9.2" y="11.6" rot="R180"/>
-<element name="R6" library="rcl" package="R0603" value="0R" x="9.2" y="3.2"/>
-<element name="R7" library="rcl" package="R0603" value="0R" x="9.2" y="5.3"/>
-<element name="R8" library="rcl" package="R0603" value="0R" x="9.2" y="9.5"/>
 <element name="JP1" library="pinhead" package="2X13" value="" x="3.1" y="17.2" rot="MR90"/>
 <element name="R9" library="rcl" package="R0603" value="4k7" x="9.2" y="13.7"/>
 <element name="R10" library="rcl" package="R0603" value="4k7" x="9.2" y="15.8"/>
@@ -955,9 +949,6 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <contactref element="U1" pad="21"/>
 <contactref element="U1" pad="33"/>
 <contactref element="U2" pad="4"/>
-<contactref element="R8" pad="1"/>
-<contactref element="R7" pad="1"/>
-<contactref element="R6" pad="1"/>
 <contactref element="JP1" pad="25"/>
 <contactref element="JP1" pad="9"/>
 <contactref element="JP1" pad="6"/>
@@ -987,7 +978,13 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <vertex x="9.1" y="35"/>
 <vertex x="0" y="35"/>
 </polygon>
+<contactref element="U2" pad="3"/>
+<contactref element="U2" pad="2"/>
+<contactref element="U2" pad="1"/>
 <wire x1="11.2602" y1="30.7086" x2="11.2602" y2="31.3586" width="0" layer="19" extent="1-1"/>
+<wire x1="15.235" y1="5.5378" x2="16.505" y2="5.5378" width="0" layer="19" extent="1-1"/>
+<wire x1="13.965" y1="5.5378" x2="15.235" y2="5.5378" width="0" layer="19" extent="1-1"/>
+<wire x1="12.695" y1="5.5378" x2="13.965" y2="5.5378" width="0" layer="19" extent="1-1"/>
 <wire x1="13.15" y1="25.45" x2="13.15" y2="26.95" width="0" layer="19" extent="1-1"/>
 <wire x1="12" y1="18.3" x2="10.05" y2="17.9" width="0" layer="19" extent="1-1"/>
 <wire x1="14.5" y1="22.76" x2="15.7" y2="24.36" width="0" layer="19" extent="1-1"/>
@@ -1196,15 +1193,11 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <contactref element="U1" pad="28"/>
 <contactref element="U2" pad="8"/>
 <contactref element="U2" pad="8"/>
-<contactref element="R5" pad="2"/>
-<contactref element="R4" pad="2"/>
-<contactref element="R2" pad="2"/>
 <contactref element="JP1" pad="1"/>
 <contactref element="R9" pad="2"/>
 <contactref element="R10" pad="2"/>
 <wire x1="1.83" y1="1.96" x2="3.07" y2="3.2" width="0.254" layer="1"/>
 <wire x1="3.07" y1="3.2" x2="5.1" y2="3.2" width="0.254" layer="1"/>
-<wire x1="8.35" y1="1.1" x2="7.2" y2="1.1" width="0.254" layer="1"/>
 <wire x1="7.2" y1="1.1" x2="5.1" y2="3.2" width="0.254" layer="1"/>
 <wire x1="13.18" y1="13.9" x2="12.695" y2="13.415" width="0.254" layer="1"/>
 <wire x1="12.695" y1="13.415" x2="12.695" y2="10.2622" width="0.254" layer="1"/>
@@ -1222,15 +1215,9 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <wire x1="10.05" y1="15.8" x2="11.1" y2="16.85" width="0.254" layer="1"/>
 <wire x1="11.1" y1="16.85" x2="11.1" y2="18.92" width="0.254" layer="1"/>
 <wire x1="11.1" y1="18.92" x2="10.06" y2="19.96" width="0.254" layer="1"/>
-<wire x1="8.35" y1="7.4" x2="8.1" y2="7.4" width="0.254" layer="1"/>
 <wire x1="8.1" y1="7.4" x2="6.5" y2="5.8" width="0.254" layer="1"/>
 <wire x1="6.5" y1="5.8" x2="6.5" y2="4.6" width="0.254" layer="1"/>
 <wire x1="6.5" y1="4.6" x2="5.1" y2="3.2" width="0.254" layer="1"/>
-<wire x1="8.35" y1="7.4" x2="8" y2="7.4" width="0.254" layer="1"/>
-<wire x1="8" y1="7.4" x2="6.7" y2="8.7" width="0.254" layer="1"/>
-<wire x1="6.7" y1="8.7" x2="6.7" y2="9.95" width="0.254" layer="1"/>
-<wire x1="6.7" y1="9.95" x2="8.35" y2="11.6" width="0.254" layer="1"/>
-<wire x1="8.35" y1="11.6" x2="8.35" y2="12" width="0.254" layer="1"/>
 <wire x1="8.35" y1="12" x2="10.05" y2="13.7" width="0.254" layer="1"/>
 <wire x1="13.15" y1="25.95" x2="13.65" y2="25.95" width="0.254" layer="1"/>
 <wire x1="13.65" y1="25.95" x2="13.8" y2="25.8" width="0.254" layer="1"/>
@@ -1249,6 +1236,7 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <via x="8.3" y="20.9" extent="1-16" drill="0.3"/>
 <wire x1="8.3" y1="20.9" x2="9.12" y2="20.9" width="0.254" layer="1"/>
 <wire x1="9.12" y1="20.9" x2="10.06" y2="19.96" width="0.254" layer="1"/>
+<wire x1="8.1" y1="7.4" x2="8.35" y2="12" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA">
 <contactref element="U2" pad="5"/>
@@ -1283,35 +1271,6 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <via x="15.235" y="8.235" extent="1-16" drill="0.3"/>
 <wire x1="15.235" y1="8.235" x2="3.025" y2="8.235" width="0.254" layer="16"/>
 <wire x1="3.025" y1="8.235" x2="1.83" y2="7.04" width="0.254" layer="16"/>
-</signal>
-<signal name="N$4">
-<contactref element="U2" pad="1"/>
-<contactref element="R2" pad="1"/>
-<contactref element="R6" pad="2"/>
-<wire x1="10.05" y1="1.1" x2="10.05" y2="3.2" width="0.254" layer="1"/>
-<wire x1="12.695" y1="5.5378" x2="12.695" y2="4.095" width="0.254" layer="1"/>
-<wire x1="12.695" y1="4.095" x2="11.8" y2="3.2" width="0.254" layer="1"/>
-<wire x1="11.8" y1="3.2" x2="10.05" y2="3.2" width="0.254" layer="1"/>
-</signal>
-<signal name="N$9">
-<contactref element="U2" pad="2"/>
-<contactref element="R4" pad="1"/>
-<contactref element="R7" pad="2"/>
-<wire x1="10.05" y1="7.4" x2="13.6" y2="7.4" width="0.254" layer="1"/>
-<wire x1="13.6" y1="7.4" x2="14" y2="7" width="0.254" layer="1"/>
-<wire x1="14" y1="7" x2="14" y2="5.5728" width="0.254" layer="1"/>
-<wire x1="14" y1="5.5728" x2="13.965" y2="5.5378" width="0.254" layer="1"/>
-<wire x1="10.05" y1="5.3" x2="10.05" y2="7.4" width="0.254" layer="1"/>
-</signal>
-<signal name="N$10">
-<contactref element="U2" pad="3"/>
-<contactref element="R5" pad="1"/>
-<contactref element="R8" pad="2"/>
-<wire x1="15.235" y1="5.5378" x2="15.235" y2="7.165" width="0.254" layer="1"/>
-<wire x1="10.05" y1="9.5" x2="10.75" y2="8.8" width="0.254" layer="1"/>
-<wire x1="10.75" y1="8.8" x2="13.6" y2="8.8" width="0.254" layer="1"/>
-<wire x1="13.6" y1="8.8" x2="15.235" y2="7.165" width="0.254" layer="1"/>
-<wire x1="10.05" y1="9.5" x2="10.05" y2="11.6" width="0.254" layer="1"/>
 </signal>
 <signal name="WP">
 <contactref element="U2" pad="7"/>
