@@ -6026,8 +6026,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <sheet>
 <plain>
 <text x="15.24" y="99.06" size="1.016" layer="91">GND for Q1</text>
-<text x="154.94" y="119.38" size="1.016" layer="91">wire antenna 85mm</text>
-<text x="119.38" y="43.18" size="1.016" layer="91">solder pads for antenna</text>
+<text x="154.94" y="119.38" size="1.016" layer="97">wire antenna 85mm</text>
+<text x="119.38" y="43.18" size="1.016" layer="97">solder pads for antenna</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
