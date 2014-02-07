@@ -5985,7 +5985,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="100pF"/>
 <part name="C26" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="C27" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="470R"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="U1" library="microbuilder" deviceset="AT86RF212" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -6042,7 +6041,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="C24" gate="G$1" x="149.86" y="106.68" rot="R90"/>
 <instance part="C26" gate="G$1" x="149.86" y="160.02"/>
 <instance part="C27" gate="G$1" x="160.02" y="160.02"/>
-<instance part="R1" gate="G$1" x="43.18" y="91.44"/>
 <instance part="R3" gate="G$1" x="15.24" y="121.92" rot="R90"/>
 <instance part="U1" gate="G$1" x="83.82" y="109.22"/>
 <instance part="GND1" gate="1" x="73.66" y="63.5"/>
@@ -6338,20 +6336,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U1" gate="G$1" pin="DVDD2"/>
 <pinref part="U1" gate="G$1" pin="DVDD1"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<wire x1="53.34" y1="91.44" x2="48.26" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="CLKM"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="CLKM" class="0">
-<segment>
-<wire x1="38.1" y1="91.44" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
-<label x="33.02" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
