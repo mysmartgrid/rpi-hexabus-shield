@@ -5232,43 +5232,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="wirepad">
-<packages>
-<package name="SMD1,27-2,54">
-<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
-<smd name="1" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
-<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
-<text x="-0.8" y="-2.4" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="PAD">
-<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
-<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SMD2" prefix="PAD" uservalue="yes">
-<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="PAD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SMD1,27-2,54">
-<connects>
-<connect gate="1" pin="P" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="artwork">
 <packages>
 <package name="HEXAKRAKE">
@@ -6006,8 +5969,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
-<part name="PAD1" library="wirepad" deviceset="SMD2" device=""/>
-<part name="PAD2" library="wirepad" deviceset="SMD2" device=""/>
 <part name="U$1" library="artwork" deviceset="HEXAKRAKE" device=""/>
 <part name="U2" library="hexabus" deviceset="24LC128-I/SN" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
@@ -6026,7 +5987,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <plain>
 <text x="15.24" y="99.06" size="1.016" layer="91">GND for Q1</text>
 <text x="154.94" y="119.38" size="1.016" layer="97">wire antenna 85mm</text>
-<text x="119.38" y="43.18" size="1.016" layer="97">solder pads for antenna</text>
 <text x="152.4" y="48.26" size="1.016" layer="97">I2C pull ups</text>
 <text x="195.58" y="60.96" size="1.016" layer="97">Raspberry Pi connector</text>
 </plain>
@@ -6063,8 +6023,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="P+5" gate="VCC" x="149.86" y="170.18"/>
 <instance part="P+8" gate="VCC" x="15.24" y="144.78"/>
 <instance part="P+9" gate="VCC" x="88.9" y="172.72"/>
-<instance part="PAD1" gate="1" x="119.38" y="53.34"/>
-<instance part="PAD2" gate="1" x="119.38" y="48.26"/>
 <instance part="U$1" gate="G$1" x="111.76" y="22.86"/>
 <instance part="U2" gate="A" x="228.6" y="149.86"/>
 <instance part="P+1" gate="VCC" x="205.74" y="170.18"/>

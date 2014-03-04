@@ -9,7 +9,7 @@
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.635" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -105,24 +105,25 @@
 <plain>
 <wire x1="0" y1="0" x2="33.5" y2="0" width="0" layer="20"/>
 <wire x1="33.5" y1="0" x2="33.5" y2="35" width="0" layer="20"/>
-<wire x1="33.5" y1="35" x2="0" y2="35" width="0" layer="20"/>
+<wire x1="33.5" y1="35" x2="14" y2="35" width="0" layer="20"/>
+<wire x1="14" y1="35" x2="0" y2="35" width="0" layer="20"/>
 <wire x1="0" y1="35" x2="0" y2="0" width="0" layer="20"/>
-<text x="31.9" y="33" size="1.27" layer="21" font="vector" ratio="15" rot="SR270">h e x a b u s</text>
-<text x="17.4" y="24" size="1.27" layer="1" font="vector" ratio="12" rot="SR270">Fraunhofer ITWM</text>
-<text x="31.1" y="33" size="0.6096" layer="21" font="vector" distance="100" rot="SR270">the kraken of home automation</text>
-<text x="22" y="4.5" size="0.8128" layer="21" font="vector" ratio="12">hexabus</text>
-<text x="22" y="3.5" size="0.8128" layer="21" font="vector">rpi-shield</text>
-<text x="22" y="2.5" size="0.6096" layer="21" font="vector">20140206</text>
-<wire x1="14" y1="32.6" x2="30.5" y2="32.6" width="0.254" layer="48"/>
-<wire x1="30.5" y1="32.6" x2="30.5" y2="1.6" width="0.254" layer="48"/>
-<wire x1="30.5" y1="1.6" x2="21" y2="1.6" width="0.254" layer="48"/>
-<wire x1="21" y1="1.6" x2="21" y2="29.6" width="0.254" layer="48"/>
+<text x="12.3" y="52.8" size="1.27" layer="21" font="vector" ratio="15" rot="SR270">h e x a b u s</text>
+<text x="0.6" y="53.8" size="1.27" layer="1" font="vector" ratio="12" rot="SR270">Fraunhofer ITWM</text>
+<text x="10.2" y="51.8" size="0.6096" layer="21" font="vector" distance="100" rot="SR270">the kraken of home automation</text>
+<text x="3.2" y="54.5" size="0.8128" layer="21" font="vector" ratio="12">hexabus</text>
+<text x="2.8" y="53.4" size="0.8128" layer="21" font="vector">rpi-shield</text>
+<text x="3" y="35.6" size="0.6096" layer="21" font="vector">20140206</text>
 <dimension x1="0" y1="0" x2="33.5" y2="0" x3="16.75" y3="-2.6" textsize="1.778" layer="48"/>
 <dimension x1="0" y1="0" x2="0" y2="35" x3="-2.6" y3="17.5" textsize="1.778" layer="48"/>
 <text x="11.5" y="1.5" size="0.8128" layer="1" font="vector" ratio="20" rot="R90">1</text>
 <text x="16.6" y="4" size="0.8128" layer="16" font="vector" ratio="12" rot="MR0">hexabus</text>
 <text x="16.6" y="3" size="0.8128" layer="16" font="vector" rot="MR0">rpi-shield</text>
 <text x="16.6" y="1.5" size="0.6096" layer="16" font="vector" rot="MR0">20140206</text>
+<wire x1="14" y1="35" x2="14" y2="55" width="0" layer="20"/>
+<wire x1="14" y1="55" x2="54" y2="55" width="0" layer="20"/>
+<wire x1="54" y1="55" x2="54" y2="0" width="0" layer="20"/>
+<wire x1="54" y1="0" x2="33.5" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -275,16 +276,6 @@
 <smd name="P$2" x="0.8" y="-0.6" dx="1.2" dy="1" layer="1"/>
 <smd name="P$3" x="0.8" y="0.6" dx="1.2" dy="1" layer="1"/>
 <smd name="P$4" x="-0.8" y="0.6" dx="1.2" dy="1" layer="1"/>
-</package>
-</packages>
-</library>
-<library name="wirepad">
-<packages>
-<package name="SMD1,27-2,54">
-<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
-<smd name="1" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
-<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
-<text x="-0.8" y="-2.4" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -902,13 +893,7 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <element name="C4" library="rcl" package="C0603" value="18pF" x="14.5" y="19.6" smashed="yes">
 <attribute name="NAME" x="16.765" y="19.065" size="0.6096" layer="25" rot="R90"/>
 </element>
-<element name="PAD1" library="wirepad" package="SMD1,27-2,54" value="" x="21" y="26.8" smashed="yes" rot="R180">
-<attribute name="VALUE" x="21" y="26.8" size="0.0254" layer="27" rot="R180"/>
-</element>
-<element name="PAD2" library="wirepad" package="SMD1,27-2,54" value="" x="30.5" y="5.6" smashed="yes">
-<attribute name="VALUE" x="30.5" y="5.6" size="0.0254" layer="27"/>
-</element>
-<element name="U$1" library="artwork" package="HEXAKRAKE" value="HEXAKRAKE" x="22" y="10.8"/>
+<element name="U$1" library="artwork" package="HEXAKRAKE" value="HEXAKRAKE" x="0.5" y="36.5"/>
 <element name="U2" library="hexabus" package="SOIC127P600X175-8N" value="24LC128-I/SN" x="14.5" y="4" smashed="yes" rot="R90">
 <attribute name="PACKAGE" value="SOIC-8" x="14.5" y="4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="12C2008" x="14.5" y="4" size="1.778" layer="27" rot="R90" display="off"/>
