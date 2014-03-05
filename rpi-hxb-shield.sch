@@ -5067,47 +5067,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="discrete">
-<packages>
-<package name="PAD-01">
-<description>&lt;b&gt;PAD&lt;/b&gt;</description>
-<circle x="0" y="0" radius="0.889" width="0.762" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.3208" diameter="2.54" shape="octagon"/>
-<text x="-1.27" y="1.524" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-1.27" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="ANTENNA">
-<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="0" y="-5.08" visible="off" length="short" direction="out" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ANTENNA" prefix="ANT" uservalue="yes">
-<description>&lt;b&gt;Antenna&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="ANTENNA" x="0" y="10.16"/>
-</gates>
-<devices>
-<device name="" package="PAD-01">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="crystals-new">
 <packages>
 <package name="MJ">
@@ -5939,16 +5898,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="220nF"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="100pF"/>
-<part name="C26" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="C27" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0402K" value="220nF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0402K" value="1uF"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0402K" value="1uF"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0402K" value="1uF"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0402K" value="1uF"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0402K" value="1uF"/>
+<part name="C24" library="rcl" deviceset="C-EU" device="C0402K" value="100pF"/>
+<part name="C26" library="rcl" deviceset="C-EU" device="C0402K" value="1uF"/>
+<part name="C27" library="rcl" deviceset="C-EU" device="C0402K" value="1uF"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="U1" library="microbuilder" deviceset="AT86RF212" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -5958,13 +5917,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="ANT1" library="discrete" deviceset="ANTENNA" device=""/>
 <part name="B1" library="microbuilder" deviceset="BALUN+LP" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="Q1" library="crystals-new" deviceset="CRYSTAL" device="X22"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="18pF"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="18pF"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0402K" value="18pF"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0402K" value="18pF"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
@@ -5977,16 +5935,20 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X13" device=""/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0402" value="4k7"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0402" value="4k7"/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0402K" value="100pF"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0402K" value="100pF"/>
+<part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="GND14" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="15.24" y="99.06" size="1.016" layer="91">GND for Q1</text>
-<text x="154.94" y="119.38" size="1.016" layer="97">wire antenna 85mm</text>
+<text x="170.18" y="109.22" size="1.016" layer="97">to meandering monopole antenna</text>
 <text x="152.4" y="48.26" size="1.016" layer="97">I2C pull ups</text>
 <text x="195.58" y="60.96" size="1.016" layer="97">Raspberry Pi connector</text>
 </plain>
@@ -5998,7 +5960,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="C5" gate="G$1" x="99.06" y="144.78" rot="R90"/>
 <instance part="C6" gate="G$1" x="66.04" y="144.78" rot="R270"/>
 <instance part="C8" gate="G$1" x="139.7" y="160.02"/>
-<instance part="C24" gate="G$1" x="149.86" y="106.68" rot="R90"/>
+<instance part="C24" gate="G$1" x="157.48" y="106.68" rot="R90"/>
 <instance part="C26" gate="G$1" x="149.86" y="160.02"/>
 <instance part="C27" gate="G$1" x="160.02" y="160.02"/>
 <instance part="R3" gate="G$1" x="15.24" y="121.92" rot="R90"/>
@@ -6011,7 +5973,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="GND6" gate="1" x="111.76" y="165.1" rot="R90"/>
 <instance part="GND7" gate="1" x="15.24" y="111.76"/>
 <instance part="GND12" gate="1" x="149.86" y="147.32"/>
-<instance part="ANT1" gate="A" x="160.02" y="114.3"/>
 <instance part="B1" gate="G$1" x="132.08" y="101.6" rot="R270"/>
 <instance part="GND15" gate="1" x="132.08" y="86.36"/>
 <instance part="GND16" gate="1" x="22.86" y="96.52"/>
@@ -6035,6 +5996,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R10" gate="G$1" x="162.56" y="66.04" rot="R90"/>
 <instance part="P+7" gate="VCC" x="154.94" y="76.2"/>
 <instance part="P+10" gate="VCC" x="162.56" y="76.2"/>
+<instance part="C7" gate="G$1" x="165.1" y="99.06" rot="R180"/>
+<instance part="C9" gate="G$1" x="152.4" y="99.06" rot="R180"/>
+<instance part="GND13" gate="1" x="152.4" y="86.36"/>
+<instance part="GND14" gate="1" x="165.1" y="86.36"/>
 </instances>
 <busses>
 </busses>
@@ -6213,6 +6178,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="180.34" y1="127" x2="180.34" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="152.4" x2="210.82" y2="152.4" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="88.9" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="88.9" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="IRQ" class="0">
 <segment>
@@ -6367,17 +6342,24 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="N$33" class="0">
 <segment>
-<wire x1="144.78" y1="106.68" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="106.68" x2="152.4" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="B1" gate="G$1" pin="UNBAL"/>
 <pinref part="C24" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="104.14" x2="152.4" y2="106.68" width="0.1524" layer="91"/>
+<junction x="152.4" y="106.68"/>
 </segment>
 </net>
-<net name="N$34" class="0">
+<net name="ANTENNA" class="0">
 <segment>
-<wire x1="154.94" y1="106.68" x2="160.02" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="106.68" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="106.68" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C24" gate="G$1" pin="2"/>
-<pinref part="ANT1" gate="A" pin="1"/>
+<label x="170.18" y="106.68" size="1.27" layer="95" xref="yes"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="106.68" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="104.14" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
+<junction x="165.1" y="106.68"/>
 </segment>
 </net>
 <net name="N$30" class="0">
