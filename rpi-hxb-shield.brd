@@ -111,13 +111,14 @@
 <text x="35.8" y="26.7" size="0.6096" layer="21" font="vector" distance="100" rot="SR270">the kraken of home automation</text>
 <text x="22.4" y="6.4" size="0.8128" layer="21" font="vector" ratio="12">hexabus</text>
 <text x="21.8" y="5.2" size="0.8128" layer="21" font="vector">rpi-shield</text>
-<text x="22.5" y="3.6" size="0.6096" layer="21" font="vector">20140206</text>
-<dimension x1="0" y1="0" x2="33.5" y2="0" x3="16.75" y3="-2.6" textsize="1.778" layer="48"/>
-<dimension x1="0" y1="0" x2="0" y2="35" x3="-2.6" y3="17.5" textsize="1.778" layer="48"/>
+<text x="22.5" y="3.6" size="0.6096" layer="21" font="vector">20140311</text>
 <text x="7.7" y="2.4" size="0.8128" layer="1" font="vector" ratio="20" rot="R90">1</text>
 <wire x1="14" y1="35" x2="14" y2="40.5" width="0" layer="20"/>
 <wire x1="14" y1="40.5" x2="44" y2="40.5" width="0" layer="20"/>
 <wire x1="44" y1="40.5" x2="44" y2="0" width="0" layer="20"/>
+<dimension x1="0" y1="0" x2="44" y2="0" x3="22" y3="-5" textsize="1.778" layer="48"/>
+<dimension x1="0" y1="35" x2="0" y2="0" x3="-5" y3="17.5" textsize="1.778" layer="48"/>
+<dimension x1="0" y1="0" x2="0" y2="40.5" x3="-2.5" y3="20.25" textsize="1.778" layer="48"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1107,9 +1108,26 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <signal name="ANTENNA">
 <contactref element="C24" pad="2"/>
 <contactref element="C7" pad="2"/>
-<wire x1="21.5" y1="19.5" x2="30" y2="19.5" width="1" layer="1"/>
-<wire x1="30" y1="19.5" x2="30" y2="1.5" width="1" layer="1"/>
-<wire x1="30" y1="1.5" x2="34" y2="1.5" width="1" layer="1"/>
+<wire x1="21.5" y1="19.5" x2="22.916" y2="19.5" width="1" layer="1"/>
+<wire x1="22.916" y1="19.5" x2="24.332" y2="19.5" width="1" layer="1"/>
+<wire x1="24.332" y1="19.5" x2="25.748" y2="19.5" width="1" layer="1"/>
+<wire x1="25.748" y1="19.5" x2="27.164" y2="19.5" width="1" layer="1"/>
+<wire x1="27.164" y1="19.5" x2="28.58" y2="19.5" width="1" layer="1"/>
+<wire x1="28.58" y1="19.5" x2="30" y2="19.5" width="1" layer="1"/>
+<wire x1="30" y1="19.5" x2="30" y2="18" width="1" layer="1"/>
+<wire x1="30" y1="18" x2="30" y2="16.5" width="1" layer="1"/>
+<wire x1="30" y1="16.5" x2="30" y2="15" width="1" layer="1"/>
+<wire x1="30" y1="15" x2="30" y2="13.5" width="1" layer="1"/>
+<wire x1="30" y1="13.5" x2="30" y2="12" width="1" layer="1"/>
+<wire x1="30" y1="12" x2="30" y2="10.5" width="1" layer="1"/>
+<wire x1="30" y1="10.5" x2="30" y2="9" width="1" layer="1"/>
+<wire x1="30" y1="9" x2="30" y2="7.5" width="1" layer="1"/>
+<wire x1="30" y1="7.5" x2="30" y2="6" width="1" layer="1"/>
+<wire x1="30" y1="6" x2="30" y2="4.5" width="1" layer="1"/>
+<wire x1="30" y1="4.5" x2="30" y2="3" width="1" layer="1"/>
+<wire x1="30" y1="3" x2="30" y2="1.5" width="1" layer="1"/>
+<wire x1="30" y1="1.5" x2="32" y2="1.5" width="1" layer="1"/>
+<wire x1="32" y1="1.5" x2="34" y2="1.5" width="1" layer="1"/>
 <wire x1="18.6" y1="19.5" x2="18.7" y2="19.6" width="0.1524" layer="1"/>
 <wire x1="18.7" y1="19.6" x2="19.6" y2="19.6" width="0.1524" layer="1"/>
 <wire x1="19.6" y1="19.6" x2="19.7" y2="19.5" width="0.1524" layer="1"/>
@@ -1119,21 +1137,72 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <wire x1="30" y1="19.5" x2="30" y2="1.5" width="1" layer="16"/>
 <via x="30" y="1.5" extent="1-16" drill="0.3"/>
 <wire x1="30" y1="1.5" x2="34" y2="1.5" width="1" layer="16"/>
-<wire x1="34" y1="1.5" x2="34" y2="38.5" width="1" layer="1"/>
+<wire x1="34" y1="1.5" x2="34" y2="2.98" width="1" layer="1"/>
+<wire x1="34" y1="2.98" x2="34" y2="4.46" width="1" layer="1"/>
+<wire x1="34" y1="4.46" x2="34" y2="5.943" width="1" layer="1"/>
+<wire x1="34" y1="5.943" x2="34" y2="7.42" width="1" layer="1"/>
+<wire x1="34" y1="7.42" x2="34" y2="8.9" width="1" layer="1"/>
+<wire x1="34" y1="8.9" x2="34" y2="10.38" width="1" layer="1"/>
+<wire x1="34" y1="10.38" x2="34" y2="11.86" width="1" layer="1"/>
+<wire x1="34" y1="11.86" x2="34" y2="13.34" width="1" layer="1"/>
+<wire x1="34" y1="13.34" x2="34" y2="14.82" width="1" layer="1"/>
+<wire x1="34" y1="14.82" x2="34" y2="16.3" width="1" layer="1"/>
+<wire x1="34" y1="16.3" x2="34" y2="17.78" width="1" layer="1"/>
+<wire x1="34" y1="17.78" x2="34" y2="19.26" width="1" layer="1"/>
+<wire x1="34" y1="19.26" x2="34" y2="20.74" width="1" layer="1"/>
+<wire x1="34" y1="20.74" x2="34" y2="22.22" width="1" layer="1"/>
+<wire x1="34" y1="22.22" x2="34" y2="23.7" width="1" layer="1"/>
+<wire x1="34" y1="23.7" x2="34" y2="25.18" width="1" layer="1"/>
+<wire x1="34" y1="25.18" x2="34" y2="26.66" width="1" layer="1"/>
+<wire x1="34" y1="26.66" x2="34" y2="28.14" width="1" layer="1"/>
+<wire x1="34" y1="28.14" x2="34" y2="29.62" width="1" layer="1"/>
+<wire x1="34" y1="29.62" x2="34" y2="31.1" width="1" layer="1"/>
+<wire x1="34" y1="31.1" x2="34" y2="32.58" width="1" layer="1"/>
+<wire x1="34" y1="32.58" x2="34" y2="34.06" width="1" layer="1"/>
+<wire x1="34" y1="34.06" x2="34" y2="35.54" width="1" layer="1"/>
+<wire x1="34" y1="35.54" x2="34" y2="37.02" width="1" layer="1"/>
+<wire x1="34" y1="37.02" x2="34" y2="38.5" width="1" layer="1"/>
 <wire x1="38" y1="38.5" x2="38" y2="1.5" width="1" layer="16"/>
-<wire x1="38" y1="1.5" x2="42" y2="1.5" width="1" layer="1"/>
+<wire x1="38" y1="1.5" x2="40" y2="1.5" width="1" layer="1"/>
+<wire x1="40" y1="1.5" x2="42" y2="1.5" width="1" layer="1"/>
 <wire x1="42" y1="1.5" x2="42" y2="38.5" width="1" layer="16"/>
 <wire x1="34" y1="38.5" x2="38" y2="38.5" width="1" layer="16"/>
 <via x="34" y="1.5" extent="1-16" drill="0.3"/>
 <wire x1="34" y1="1.5" x2="34" y2="38.5" width="1" layer="16"/>
 <via x="34" y="38.5" extent="1-16" drill="0.3"/>
-<wire x1="34" y1="38.5" x2="38" y2="38.5" width="1" layer="1"/>
+<wire x1="34" y1="38.5" x2="36.1" y2="38.5" width="1" layer="1"/>
 <via x="38" y="38.5" extent="1-16" drill="0.3"/>
-<wire x1="38" y1="38.5" x2="38" y2="1.5" width="1" layer="1"/>
+<wire x1="36.1" y1="38.5" x2="38" y2="38.5" width="1" layer="1"/>
+<wire x1="38" y1="38.5" x2="38" y2="37.02" width="1" layer="1"/>
 <via x="38" y="1.5" extent="1-16" drill="0.3"/>
+<wire x1="38" y1="37.02" x2="38" y2="35.54" width="1" layer="1"/>
+<wire x1="38" y1="35.54" x2="38" y2="34.06" width="1" layer="1"/>
+<wire x1="38" y1="34.06" x2="38" y2="32.58" width="1" layer="1"/>
+<wire x1="38" y1="32.58" x2="38" y2="31.1" width="1" layer="1"/>
+<wire x1="38" y1="31.1" x2="38" y2="29.62" width="1" layer="1"/>
+<wire x1="38" y1="29.62" x2="38" y2="28.14" width="1" layer="1"/>
+<wire x1="38" y1="28.14" x2="38" y2="26.66" width="1" layer="1"/>
+<wire x1="38" y1="26.66" x2="38" y2="25.18" width="1" layer="1"/>
+<wire x1="38" y1="25.18" x2="38" y2="23.7" width="1" layer="1"/>
+<wire x1="38" y1="23.7" x2="38" y2="22.22" width="1" layer="1"/>
+<wire x1="38" y1="22.22" x2="38" y2="20.74" width="1" layer="1"/>
+<wire x1="38" y1="20.74" x2="38" y2="20.7" width="1" layer="1"/>
+<wire x1="38" y1="20.7" x2="38" y2="19.26" width="1" layer="1"/>
+<wire x1="38" y1="19.26" x2="38" y2="17.78" width="1" layer="1"/>
+<wire x1="38" y1="17.78" x2="38" y2="16.3" width="1" layer="1"/>
+<wire x1="38" y1="16.3" x2="38" y2="14.82" width="1" layer="1"/>
+<wire x1="38" y1="14.82" x2="38" y2="13.34" width="1" layer="1"/>
+<wire x1="38" y1="13.34" x2="38" y2="11.86" width="1" layer="1"/>
+<wire x1="38" y1="11.86" x2="38" y2="10.38" width="1" layer="1"/>
+<wire x1="38" y1="10.38" x2="38" y2="8.9" width="1" layer="1"/>
+<wire x1="38" y1="8.9" x2="38" y2="7.42" width="1" layer="1"/>
+<wire x1="38" y1="7.42" x2="38" y2="5.943" width="1" layer="1"/>
+<wire x1="38" y1="5.943" x2="38" y2="4.46" width="1" layer="1"/>
+<wire x1="38" y1="4.46" x2="38" y2="2.98" width="1" layer="1"/>
+<wire x1="38" y1="2.98" x2="38" y2="1.5" width="1" layer="1"/>
 <wire x1="38" y1="1.5" x2="42" y2="1.5" width="1" layer="16"/>
 <via x="42" y="1.5" extent="1-16" drill="0.3"/>
-<wire x1="42" y1="1.5" x2="42" y2="38.5" width="1" layer="1"/>
+<wire x1="42" y1="1.5" x2="42" y2="2.98" width="1" layer="1"/>
 <via x="42" y="38.5" extent="1-16" drill="0.3"/>
 <via x="21.5" y="19.5" extent="1-16" drill="0.3"/>
 <via x="22.916" y="19.5" extent="1-16" drill="0.3"/>
@@ -1152,22 +1221,108 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <via x="30" y="18" extent="1-16" drill="0.3"/>
 <via x="36.1" y="38.5" extent="1-16" drill="0.3"/>
 <via x="28.58" y="19.5" extent="1-16" drill="0.3"/>
-<wire x1="38" y1="38.5" x2="36.1" y2="38.5" width="0" layer="19" extent="16-16"/>
-<wire x1="28.58" y1="19.5" x2="30" y2="19.5" width="0" layer="19" extent="1-1"/>
-<wire x1="27.164" y1="19.5" x2="28.58" y2="19.5" width="0" layer="19" extent="1-1"/>
-<wire x1="25.748" y1="19.5" x2="27.164" y2="19.5" width="0" layer="19" extent="1-1"/>
-<wire x1="22.916" y1="19.5" x2="21.5" y2="19.5" width="0" layer="19" extent="1-1"/>
-<wire x1="24.332" y1="19.5" x2="25.748" y2="19.5" width="0" layer="19" extent="1-1"/>
-<wire x1="30" y1="18" x2="30" y2="19.5" width="0" layer="19" extent="1-1"/>
-<wire x1="30" y1="16.5" x2="30" y2="18" width="0" layer="19" extent="1-1"/>
-<wire x1="30" y1="15" x2="30" y2="16.5" width="0" layer="19" extent="1-1"/>
-<wire x1="30" y1="13.5" x2="30" y2="15" width="0" layer="19" extent="1-1"/>
-<wire x1="30" y1="12" x2="30" y2="13.5" width="0" layer="19" extent="1-1"/>
-<wire x1="30" y1="10.5" x2="30" y2="12" width="0" layer="19" extent="1-1"/>
-<wire x1="30" y1="9" x2="30" y2="10.5" width="0" layer="19" extent="1-1"/>
-<wire x1="30" y1="7.5" x2="30" y2="9" width="0" layer="19" extent="1-1"/>
-<wire x1="40" y1="1.5" x2="42" y2="1.5" width="0" layer="19" extent="16-16"/>
-<wire x1="32" y1="1.5" x2="34" y2="1.5" width="0" layer="19" extent="1-1"/>
+<via x="30" y="3" extent="1-16" drill="0.3"/>
+<via x="30" y="4.5" extent="1-16" drill="0.3"/>
+<via x="30" y="6" extent="1-16" drill="0.3"/>
+<via x="34" y="7.42" extent="1-16" drill="0.3"/>
+<via x="34" y="4.46" extent="1-16" drill="0.3"/>
+<via x="34" y="5.943" extent="1-16" drill="0.3"/>
+<via x="34" y="8.9" extent="1-16" drill="0.3"/>
+<via x="34" y="2.98" extent="1-16" drill="0.3"/>
+<via x="34" y="20.74" extent="1-16" drill="0.3"/>
+<via x="34" y="13.34" extent="1-16" drill="0.3"/>
+<via x="34" y="19.26" extent="1-16" drill="0.3"/>
+<via x="34" y="11.86" extent="1-16" drill="0.3"/>
+<via x="34" y="10.38" extent="1-16" drill="0.3"/>
+<via x="34" y="16.3" extent="1-16" drill="0.3"/>
+<via x="34" y="14.82" extent="1-16" drill="0.3"/>
+<via x="34" y="17.78" extent="1-16" drill="0.3"/>
+<via x="34" y="22.22" extent="1-16" drill="0.3"/>
+<via x="38" y="20.74" extent="1-16" drill="0.3"/>
+<via x="38" y="13.34" extent="1-16" drill="0.3"/>
+<via x="38" y="19.26" extent="1-16" drill="0.3"/>
+<via x="38" y="11.86" extent="1-16" drill="0.3"/>
+<via x="38" y="10.38" extent="1-16" drill="0.3"/>
+<via x="38" y="16.3" extent="1-16" drill="0.3"/>
+<via x="38" y="14.82" extent="1-16" drill="0.3"/>
+<via x="38" y="17.78" extent="1-16" drill="0.3"/>
+<via x="38" y="22.22" extent="1-16" drill="0.3"/>
+<via x="34" y="35.54" extent="1-16" drill="0.3"/>
+<via x="34" y="28.14" extent="1-16" drill="0.3"/>
+<via x="34" y="34.06" extent="1-16" drill="0.3"/>
+<via x="34" y="26.66" extent="1-16" drill="0.3"/>
+<via x="34" y="25.18" extent="1-16" drill="0.3"/>
+<via x="34" y="31.1" extent="1-16" drill="0.3"/>
+<via x="34" y="29.62" extent="1-16" drill="0.3"/>
+<via x="34" y="32.58" extent="1-16" drill="0.3"/>
+<via x="34" y="37.02" extent="1-16" drill="0.3"/>
+<via x="38" y="35.54" extent="1-16" drill="0.3"/>
+<via x="38" y="28.14" extent="1-16" drill="0.3"/>
+<via x="38" y="34.06" extent="1-16" drill="0.3"/>
+<via x="38" y="26.66" extent="1-16" drill="0.3"/>
+<via x="38" y="25.18" extent="1-16" drill="0.3"/>
+<via x="38" y="31.1" extent="1-16" drill="0.3"/>
+<via x="38" y="29.62" extent="1-16" drill="0.3"/>
+<via x="38" y="32.58" extent="1-16" drill="0.3"/>
+<via x="38" y="37.02" extent="1-16" drill="0.3"/>
+<via x="42" y="35.54" extent="1-16" drill="0.3"/>
+<via x="42" y="28.14" extent="1-16" drill="0.3"/>
+<via x="42" y="34.06" extent="1-16" drill="0.3"/>
+<via x="42" y="26.66" extent="1-16" drill="0.3"/>
+<via x="42" y="25.18" extent="1-16" drill="0.3"/>
+<via x="42" y="31.1" extent="1-16" drill="0.3"/>
+<via x="42" y="29.62" extent="1-16" drill="0.3"/>
+<via x="42" y="32.58" extent="1-16" drill="0.3"/>
+<via x="42" y="37.02" extent="1-16" drill="0.3"/>
+<via x="34" y="23.7" extent="1-16" drill="0.3"/>
+<via x="38" y="7.42" extent="1-16" drill="0.3"/>
+<via x="38" y="4.46" extent="1-16" drill="0.3"/>
+<via x="38" y="5.943" extent="1-16" drill="0.3"/>
+<via x="38" y="8.9" extent="1-16" drill="0.3"/>
+<via x="38" y="2.98" extent="1-16" drill="0.3"/>
+<via x="38" y="23.7" extent="1-16" drill="0.3"/>
+<via x="42" y="7.42" extent="1-16" drill="0.3"/>
+<via x="42" y="4.46" extent="1-16" drill="0.3"/>
+<via x="42" y="5.943" extent="1-16" drill="0.3"/>
+<via x="42" y="8.9" extent="1-16" drill="0.3"/>
+<via x="42" y="2.98" extent="1-16" drill="0.3"/>
+<via x="42" y="20.74" extent="1-16" drill="0.3"/>
+<via x="42" y="13.34" extent="1-16" drill="0.3"/>
+<via x="42" y="19.26" extent="1-16" drill="0.3"/>
+<via x="42" y="11.86" extent="1-16" drill="0.3"/>
+<via x="42" y="10.38" extent="1-16" drill="0.3"/>
+<via x="42" y="16.3" extent="1-16" drill="0.3"/>
+<via x="42" y="14.82" extent="1-16" drill="0.3"/>
+<via x="42" y="17.78" extent="1-16" drill="0.3"/>
+<via x="42" y="22.22" extent="1-16" drill="0.3"/>
+<via x="42" y="23.7" extent="1-16" drill="0.3"/>
+<wire x1="42" y1="2.98" x2="42" y2="4.46" width="1" layer="1"/>
+<wire x1="42" y1="4.46" x2="42" y2="5.943" width="1" layer="1"/>
+<wire x1="42" y1="5.943" x2="42" y2="7.42" width="1" layer="1"/>
+<wire x1="42" y1="7.42" x2="42" y2="8.9" width="1" layer="1"/>
+<wire x1="42" y1="8.9" x2="42" y2="10.38" width="1" layer="1"/>
+<wire x1="42" y1="10.38" x2="42" y2="11.86" width="1" layer="1"/>
+<wire x1="42" y1="11.86" x2="42" y2="13.34" width="1" layer="1"/>
+<wire x1="42" y1="13.34" x2="42" y2="14.82" width="1" layer="1"/>
+<wire x1="42" y1="14.82" x2="42" y2="16.3" width="1" layer="1"/>
+<wire x1="42" y1="16.3" x2="42" y2="17.78" width="1" layer="1"/>
+<wire x1="42" y1="17.78" x2="42" y2="19.26" width="1" layer="1"/>
+<wire x1="42" y1="19.26" x2="42" y2="20.74" width="1" layer="1"/>
+<wire x1="42" y1="20.74" x2="42" y2="22.22" width="1" layer="1"/>
+<wire x1="42" y1="22.22" x2="42" y2="23.7" width="1" layer="1"/>
+<wire x1="42" y1="23.7" x2="42" y2="25.18" width="1" layer="1"/>
+<wire x1="42" y1="25.18" x2="42" y2="26.66" width="1" layer="1"/>
+<wire x1="42" y1="26.66" x2="42" y2="28.14" width="1" layer="1"/>
+<wire x1="42" y1="28.14" x2="42" y2="29.62" width="1" layer="1"/>
+<wire x1="42" y1="29.62" x2="42" y2="31.1" width="1" layer="1"/>
+<wire x1="42" y1="31.1" x2="42" y2="32.58" width="1" layer="1"/>
+<wire x1="42" y1="32.58" x2="42" y2="34.06" width="1" layer="1"/>
+<wire x1="42" y1="34.06" x2="42" y2="35.54" width="1" layer="1"/>
+<wire x1="42" y1="35.54" x2="42" y2="37.02" width="1" layer="1"/>
+<wire x1="42" y1="37.02" x2="42" y2="38.5" width="1" layer="1"/>
+<wire x1="34" y1="10.38" x2="34.1" y2="10.38" width="0.254" layer="1"/>
+<wire x1="34.1" y1="10.38" x2="34.1" y2="11.9" width="0.254" layer="1"/>
+<wire x1="38" y1="22.22" x2="38" y2="20.7" width="0.254" layer="1"/>
 </signal>
 <signal name="N$30">
 <contactref element="U1" pad="26"/>
@@ -1279,169 +1434,6 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <wire x1="7.6" y1="9.8" x2="6.6" y2="10.8" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$5">
-</signal>
-<signal name="ANTENNA1">
-<via x="30" y="3" extent="1-16" drill="0.3"/>
-<via x="30" y="4.5" extent="1-16" drill="0.3"/>
-<via x="30" y="6" extent="1-16" drill="0.3"/>
-<wire x1="30" y1="4.5" x2="30" y2="6" width="0" layer="19" extent="1-1"/>
-<wire x1="30" y1="3" x2="30" y2="4.5" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ANTENNA2">
-<via x="34" y="20.74" extent="1-16" drill="0.3"/>
-<via x="34" y="13.34" extent="1-16" drill="0.3"/>
-<via x="34" y="19.26" extent="1-16" drill="0.3"/>
-<via x="34" y="11.86" extent="1-16" drill="0.3"/>
-<via x="34" y="10.38" extent="1-16" drill="0.3"/>
-<via x="34" y="16.3" extent="1-16" drill="0.3"/>
-<via x="34" y="14.82" extent="1-16" drill="0.3"/>
-<via x="34" y="17.78" extent="1-16" drill="0.3"/>
-<via x="34" y="22.22" extent="1-16" drill="0.3"/>
-<wire x1="34" y1="22.22" x2="34" y2="20.74" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="19.26" x2="34" y2="20.74" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="17.78" x2="34" y2="19.26" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="16.3" x2="34" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="14.82" x2="34" y2="16.3" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="13.34" x2="34" y2="14.82" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="11.86" x2="34" y2="13.34" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="10.38" x2="34" y2="11.86" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ANTENNA3">
-<via x="34" y="7.42" extent="1-16" drill="0.3"/>
-<via x="34" y="4.46" extent="1-16" drill="0.3"/>
-<via x="34" y="5.943" extent="1-16" drill="0.3"/>
-<via x="34" y="8.9" extent="1-16" drill="0.3"/>
-<via x="34" y="2.98" extent="1-16" drill="0.3"/>
-<wire x1="34" y1="7.42" x2="34" y2="8.9" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="5.943" x2="34" y2="7.42" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="4.46" x2="34" y2="5.943" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="2.98" x2="34" y2="4.46" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ANTENNA4">
-<via x="34" y="35.54" extent="1-16" drill="0.3"/>
-<via x="34" y="28.14" extent="1-16" drill="0.3"/>
-<via x="34" y="34.06" extent="1-16" drill="0.3"/>
-<via x="34" y="26.66" extent="1-16" drill="0.3"/>
-<via x="34" y="25.18" extent="1-16" drill="0.3"/>
-<via x="34" y="31.1" extent="1-16" drill="0.3"/>
-<via x="34" y="29.62" extent="1-16" drill="0.3"/>
-<via x="34" y="32.58" extent="1-16" drill="0.3"/>
-<via x="34" y="37.02" extent="1-16" drill="0.3"/>
-<wire x1="34" y1="35.54" x2="34" y2="37.02" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="34.06" x2="34" y2="35.54" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="32.58" x2="34" y2="34.06" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="31.1" x2="34" y2="32.58" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="29.62" x2="34" y2="31.1" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="28.14" x2="34" y2="29.62" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="26.66" x2="34" y2="28.14" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="25.18" x2="34" y2="26.66" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ANTENNA5">
-<via x="34" y="23.7" extent="1-16" drill="0.3"/>
-</signal>
-<signal name="ANTENNA6">
-<via x="38" y="20.74" extent="1-16" drill="0.3"/>
-<via x="38" y="13.34" extent="1-16" drill="0.3"/>
-<via x="38" y="19.26" extent="1-16" drill="0.3"/>
-<via x="38" y="11.86" extent="1-16" drill="0.3"/>
-<via x="38" y="10.38" extent="1-16" drill="0.3"/>
-<via x="38" y="16.3" extent="1-16" drill="0.3"/>
-<via x="38" y="14.82" extent="1-16" drill="0.3"/>
-<via x="38" y="17.78" extent="1-16" drill="0.3"/>
-<via x="38" y="22.22" extent="1-16" drill="0.3"/>
-<wire x1="38" y1="22.22" x2="38" y2="20.74" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="19.26" x2="38" y2="20.74" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="17.78" x2="38" y2="19.26" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="16.3" x2="38" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="14.82" x2="38" y2="16.3" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="13.34" x2="38" y2="14.82" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="11.86" x2="38" y2="13.34" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="10.38" x2="38" y2="11.86" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ANTENNA7">
-<via x="38" y="7.42" extent="1-16" drill="0.3"/>
-<via x="38" y="4.46" extent="1-16" drill="0.3"/>
-<via x="38" y="5.943" extent="1-16" drill="0.3"/>
-<via x="38" y="8.9" extent="1-16" drill="0.3"/>
-<via x="38" y="2.98" extent="1-16" drill="0.3"/>
-<wire x1="38" y1="7.42" x2="38" y2="8.9" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="5.943" x2="38" y2="7.42" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="4.46" x2="38" y2="5.943" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="2.98" x2="38" y2="4.46" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ANTENNA8">
-<via x="38" y="35.54" extent="1-16" drill="0.3"/>
-<via x="38" y="28.14" extent="1-16" drill="0.3"/>
-<via x="38" y="34.06" extent="1-16" drill="0.3"/>
-<via x="38" y="26.66" extent="1-16" drill="0.3"/>
-<via x="38" y="25.18" extent="1-16" drill="0.3"/>
-<via x="38" y="31.1" extent="1-16" drill="0.3"/>
-<via x="38" y="29.62" extent="1-16" drill="0.3"/>
-<via x="38" y="32.58" extent="1-16" drill="0.3"/>
-<via x="38" y="37.02" extent="1-16" drill="0.3"/>
-<wire x1="38" y1="35.54" x2="38" y2="37.02" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="34.06" x2="38" y2="35.54" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="32.58" x2="38" y2="34.06" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="31.1" x2="38" y2="32.58" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="29.62" x2="38" y2="31.1" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="28.14" x2="38" y2="29.62" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="26.66" x2="38" y2="28.14" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="25.18" x2="38" y2="26.66" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ANTENNA9">
-<via x="38" y="23.7" extent="1-16" drill="0.3"/>
-</signal>
-<signal name="ANTENNA10">
-<via x="42" y="20.74" extent="1-16" drill="0.3"/>
-<via x="42" y="13.34" extent="1-16" drill="0.3"/>
-<via x="42" y="19.26" extent="1-16" drill="0.3"/>
-<via x="42" y="11.86" extent="1-16" drill="0.3"/>
-<via x="42" y="10.38" extent="1-16" drill="0.3"/>
-<via x="42" y="16.3" extent="1-16" drill="0.3"/>
-<via x="42" y="14.82" extent="1-16" drill="0.3"/>
-<via x="42" y="17.78" extent="1-16" drill="0.3"/>
-<via x="42" y="22.22" extent="1-16" drill="0.3"/>
-<wire x1="42" y1="22.22" x2="42" y2="20.74" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="19.26" x2="42" y2="20.74" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="17.78" x2="42" y2="19.26" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="16.3" x2="42" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="14.82" x2="42" y2="16.3" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="13.34" x2="42" y2="14.82" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="11.86" x2="42" y2="13.34" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="10.38" x2="42" y2="11.86" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ANTENNA11">
-<via x="42" y="7.42" extent="1-16" drill="0.3"/>
-<via x="42" y="4.46" extent="1-16" drill="0.3"/>
-<via x="42" y="5.943" extent="1-16" drill="0.3"/>
-<via x="42" y="8.9" extent="1-16" drill="0.3"/>
-<via x="42" y="2.98" extent="1-16" drill="0.3"/>
-<wire x1="42" y1="7.42" x2="42" y2="8.9" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="5.943" x2="42" y2="7.42" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="4.46" x2="42" y2="5.943" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="2.98" x2="42" y2="4.46" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ANTENNA12">
-<via x="42" y="35.54" extent="1-16" drill="0.3"/>
-<via x="42" y="28.14" extent="1-16" drill="0.3"/>
-<via x="42" y="34.06" extent="1-16" drill="0.3"/>
-<via x="42" y="26.66" extent="1-16" drill="0.3"/>
-<via x="42" y="25.18" extent="1-16" drill="0.3"/>
-<via x="42" y="31.1" extent="1-16" drill="0.3"/>
-<via x="42" y="29.62" extent="1-16" drill="0.3"/>
-<via x="42" y="32.58" extent="1-16" drill="0.3"/>
-<via x="42" y="37.02" extent="1-16" drill="0.3"/>
-<wire x1="42" y1="35.54" x2="42" y2="37.02" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="34.06" x2="42" y2="35.54" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="32.58" x2="42" y2="34.06" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="31.1" x2="42" y2="32.58" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="29.62" x2="42" y2="31.1" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="28.14" x2="42" y2="29.62" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="26.66" x2="42" y2="28.14" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="25.18" x2="42" y2="26.66" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ANTENNA13">
-<via x="42" y="23.7" extent="1-16" drill="0.3"/>
 </signal>
 </signals>
 </board>
