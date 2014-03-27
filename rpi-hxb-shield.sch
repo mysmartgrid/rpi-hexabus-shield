@@ -5951,6 +5951,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="170.18" y="109.22" size="1.016" layer="97">to meandering monopole antenna</text>
 <text x="152.4" y="48.26" size="1.016" layer="97">I2C pull ups</text>
 <text x="195.58" y="60.96" size="1.016" layer="97">Raspberry Pi connector</text>
+<text x="17.78" y="45.72" size="3.81" layer="97">note: do not equip C1, C4, C7, C9</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
